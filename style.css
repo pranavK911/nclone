@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.9)),url(assets/asset\ 28.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+nav{
+    display: flex;
+    /* padding: 60px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 100px;
+    width: 190px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 100px;
+}
+
+/* Language Dropdown */
+.language-select {
+    padding: 5px 10px;
+    background-color:transparent;
+    color: white;
+    border: .5px solid #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.language-select option {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Sign Up Button */
+.seco {
+    padding: 8px 15px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+}
+
+.signup-btn:hover {
+    background-color: #7e0f14;
+}
+.header-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.header-con h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    /* margin: 10px 0; */
+    line-height: 1.2;
+    max-width: 600px; /* Added max-width for better readability */
+    /* word-wrap: break-word; */
+    text-align: center;
+}
+.header-con h3{
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+    margin:10px ;
+}
+.header-con p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 20px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px; /* Adds spacing between input and button */
+}
+
+/* Input Field Styling */
+.form-input {
+    padding: 15px;
+    font-size: 1rem;
+    background: transparent;
+    border: .1px solid #fff;
+    border-radius: 5px 0 0 5px; 
+    width: 400px; 
+    color: #fff;
+    max-width: 80%;
+    outline: none;
+
+}
+.form-input::placeholder {
+    color: #b3b3b3;  /* Light gray color */
+    opacity: 1;  /* Optional: ensures the placeholder color is fully visible */
+}
+
+
+/* Button Styling */
+.form-btn {
+    padding: 19px 55px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-flex;
+    gap: 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.form-btn:hover {
+    background-color: #f40612;
+    /* transform: scale(1.05); Slightly enlarges the button */
+}
+.main-con{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline:20px ;
+
+}
+.tranding{
+    margin-top:40px ;
+}
+.tranding-sec{
+    margin: 10px;
+}
+.btn-t{
+    display:flex ;
+    gap: 20px;
+}
+.btn-t button{
+    padding: 15px 30px;            
+    font-size: 1rem;     
+    margin: 20px 0 ;           
+    background: transparent;
+    color: white;                   
+    border: 0.5px solid #fff;                  
+    border-radius: 5px;             
+    font-weight: bold;             
+    cursor: pointer;
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+}
+.btn-t button i{
+ font-size: 1rem;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     margin-top: 10px;
+}
+.card-img img{
+    border-radius:10px;
+    transition: transform 0.3s ease;
+}
+.card-img img:hover{
+    transform: scale(1.1); 
+}
+.reason-sec{
+    margin-top: 20px;
+}
+.txt{
+ margin-top: 20px;
+ display: flex;
+ justify-content: space-around;
+
+}
+.main-con h2{
+    font-weight: bold;
+    font-size:2 rem;
+}
+.txt-con{
+   height: 340px;
+   width: 250px;
+   background: linear-gradient(rgba(29,25,48,5),rgba(32,17,31,6));
+   border-radius: 22px ;
+   padding: 25px;
+   position: relative;
+}
+.txt-con h3{
+    font-size: 1.6rem;
+    font-weight: bold;
+    line-height: 1.2;
+    /* max-width: 600px;  */
+    margin-bottom: 20px;
+    
+}
+.txt-con p{
+    color: rgb(145,145,158);
+    font-weight: bold;
+    font-size: 18px;
+}
+.txt-con img{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.fabdq{
+   margin: 30px;
+   padding: 20px;
+}
+.ques-div{
+    margin-top: 10px;
+}
+.ques{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(65,65, 65);
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    transition: background-color 0.3s ease; 
+    cursor: pointer;
+}
+.ques h2{
+    /* text-align: center; */
+    padding: 20px;
+}
+.ques i{
+    padding: 20px;
+    font-size: 40px;
+}
+.ques:hover{
+    background-color: rgb(85, 85, 85);
+}
+ .bot p{
+    font-size: 20px;
+   text-align: center;
+}
+.bot{
+    margin-bottom: 20px;
+}
+.tt{
+    padding: 15px;
+    font-size: 1rem;
+    background: transparent;
+    border: .1px solid #fff;
+    border-radius: 5px 0 0 5px; 
+    width: 570px; 
+    color: #fff;
+    max-width: 80%;
+    outline: none;
+}
+.fl{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.diff-h{
+    margin-top: 20px;
+    flex-direction: column;
+}
+a{
+    color: rgb(145,145,158);
+    margin-bottom: 10px;
+
+}
+.bottom-btn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border: 0.1px solid #fff;
+    display: inline-flex;
+    gap: 10px;
+}
+.bottom-btn i{
+    font-size: 20px;
+}
+.bottom-h2{
+    margin-top: 30px;
+    color: rgb(145,145,158);
+}
